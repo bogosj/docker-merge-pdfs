@@ -7,3 +7,5 @@ The following command will take all of the PDF files in the current working dire
 ```bash
 docker run -v $(pwd):/work/files -u `id -u $USER` bogosj/merge-pdfs
 ```
+
+[Docker Hub](https://hub.docker.com/r/bogosj/merge-pdfs)
