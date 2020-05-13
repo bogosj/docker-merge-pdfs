@@ -1,8 +1,8 @@
 #!/bin/sh
 
-TMP_DIR=`mktemp -d`
+TMP=`mktemp -d`
 
-pdftk /work/files/*pdf cat output $TMP_DIR/input.pdf
+pdftk /work/files/*pdf cat output $TMP/input.pdf
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/default \
-         -dNOPAUSE -dQUIET -dBATCH -sOutputFile=/work/files/output.pdf $TMP_DIR/input.pdf
+         -dNOPAUSE -dQUIET -dBATCH -sOutputFile=/work/files/output.pdf $TMP/input.pdf
 
