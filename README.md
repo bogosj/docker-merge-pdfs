@@ -8,4 +8,4 @@ The following command will take all of the PDF files in the current working dire
 docker run --rm -v $(pwd):/work/files -u `id -u $USER` ghcr.io/bogosj/merge-pdfs
 ```
 
-[Docker Image](https://github.com/users/bogosj/packages/container/package/merge-pdfs)
+Published as [ghcr.io/bogosj/merge-pdfs](https://github.com/users/bogosj/packages/container/package/merge-pdfs)
