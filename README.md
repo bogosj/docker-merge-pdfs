@@ -15,3 +15,6 @@ alias merge-pdfs="docker run --rm -v $(pwd):/work/files -u `id -u $USER` ghcr.io
 ```
 
 Published as [ghcr.io/bogosj/merge-pdfs](https://github.com/users/bogosj/packages/container/package/merge-pdfs)
+
+## Status
+I probably won't change this much, as I've found [SimplePDF](https://simplepdf.eu/) which lets me merge PDFs from a browser.
